@@ -1,9 +1,4 @@
 
-# resource "aws_key_pair" "terra" {
-#     key_name   = "terra-key"
-#     public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC6GfiCTwW5ti+2ubCW19uSPVNH+INZ7m3e5hofQEgtM4bqACSz8kqsQSndEQ/n2/PnxnGopDLenM4p6AIjUvOHgSPfAGIekmuvk4oSerFZqE+t1BKcYzSpkYqPz0quJ+UKLVdNtPhNAcyRdGyl8e2LZHGTmIEP4RMSkTatJSWjWKAd3brgd6J44JwRtEM3rgs9pl93KP4+93WT+IFUws+OJADQbAVDnKuHMS0DG/A+Ta9HHCYuCtGzV8UyyMPeNm2F7mVJQiZUS0GbTIoMyVc9BdlOJFXMmrM00iHbyFOC5Y3g6yJGTYAKepXEqcoRhKqKOswZCPdMFdlw9yF41e76aesz0Szc8MEDuUiBqglL6IGlmsBa/SL38qO9JeD0RzdZuGeA6InTEM5y/YbQOAkVa2o/bwgGxt7Nq3zWqCodtsq8Ex8tphZ4TNrJAADISmM6qm2ifF7lP/s6R0No8uja+0fAHsdk7lDIIa3vQTyDahGn8WzaF2ab5rl5fgq9FSE= erdem@DESKTOP-9L2TM1M"
-# }
-
 provider "aws" {
   region = "us-west-2"
 }

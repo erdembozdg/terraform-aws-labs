@@ -27,3 +27,8 @@ terraform workspace new prod-env
 terraform workspace select default
 terraform workspace list
 terraform workspace select prod-env
+
+#EBS
+df -h
+mkfs.ext4 /dev/xvdh
+mount /dev/xvdh /data

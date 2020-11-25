@@ -20,3 +20,7 @@ variable "PATH_PUBLIC_KEY" {
 variable "USERNAME" {
   default = "ubuntu"
 }
+
+variable "INSTANCE_DEVICE_NAME" {
+  default = "/dev/xvdh"
+}
